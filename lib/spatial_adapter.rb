@@ -9,7 +9,8 @@
 # The Rails init code (rails/init.rb) will then load the adapter that matches
 # your database.yml configuration.
 
-require 'geo_ruby'
+require 'georuby'
+require 'geo_ruby/ewk/ewkb_parser'
 require 'active_record'
 
 include GeoRuby::SimpleFeatures

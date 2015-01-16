@@ -1,5 +1,6 @@
 require 'spatial_adapter'
 require 'active_record/connection_adapters/postgresql_adapter'
+require 'geo_ruby/ewk/ewkb_parser'
 
 module ActiveRecord::ConnectionAdapters
   class PostgreSQLAdapter
